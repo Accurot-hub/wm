@@ -1,0 +1,14 @@
+.docs__video {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.docs__video__box {
+    display: flex;
+    justify-content: space-evenly;
+}
+.docs__video__box--image {
+    &:hover {
+        cursor: pointer;
+    }
+}

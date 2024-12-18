@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Document</title>
+</head>
+<body class="wm">
+    <header class="header">
+        <div class="burger__menu">
+            <span class="line line-one"></span>
+            <span class="line line-two"></span>
+            <span class="line line-three"></span>
+        </div>
+        <div class="header__logo">
+            <img src="./img/!og (4).png" alt="logo">
+        </div>
+        <div class="header__search">
+            <input id="search" class="header__search--input" type="text">
+            <img class="header__search--keyboard" src="./img/free-icon-font-keyboard-16106548.svg" alt="virtual keyboard">
+            <img id="search-loupe" class="header__search--loupe" src="./img/free-icon-font-search-3917132.svg" alt="search loupe">
+        </div>
+        <div class="header__circle" title="Предложить видео">
+            <span class="plus">+</span>
+        </div>
+        <div class="header__user">
+            <img class="header__user--icon" src="./img/free-icon-circle-15795557.png" alt="user icon">
+        </div>
+    </header>
+    <main class="main">
+        <aside class="main__left__menu">
+            <div id="home" class="main__left__menu--home">
+                <img class="main__left__menu--home--image" src="./img/555.png" alt="home image">
+                <span class="main__left__menu--home--text">Главная</span>
+            </div>
+            <div id="catalog" class="main__left__menu--catalog">
+                <img class="main__left__menu--catalog--image" src="./img/1122.png" alt="catalog image">
+                <span class="main__left__menu--catalog--text">Каталог</span>
+            </div>
+            <div class="main__left__menu--popular">
+                <img class="main__left__menu--popular--image" src="./img/18.png" alt="popular image">
+                <span class="main__left__menu--popular--text">Популярное</span>
+            </div>
+            <div class="main__left__menu--short">
+                <img class="main__left__menu--short--image" src="./img/1131.png" alt="player image">
+                <span class="main__left__menu--short--text">Короткие</span>
+            </div>
+        </aside>
+        <section class="section__content">
+            <div class="tabs">
+                <div class="tabs__menu">
+                    <span class="tabs__menu--link active"><a href="">Все</a></span>
+                    <span class="tabs__menu--link"><a href="">Фильмы</a></span>
+                    <span id="documentary" class="tabs__menu--link"><a href="./page23.html">Документальное</a></span>
+                    <span class="tabs__menu--link"><a href="">Образование</a></span>
+                    <span class="tabs__menu--link"><a href="">Музыка</a></span>
+                    <span class="tabs__menu--link"><a href="">Детям</a></span>
+                    <span class="tabs__menu--link"><a href="">Новое</a></span>
+                    <span class="tabs__menu--link"><a href="">Плейлисты</a></span>
+                </div>
+            </div>
+            <div class="video">
+                <div class="video__box">
+                    <div class="video_box--player">
+                        <iframe class="video_box--player--video"
+                        src="https://www.youtube.com/embed/mRk41b_ubak?si=l1QdSIDrRMfgNZhV&"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer;
+                        autoplay; 
+                        clipboard-write;
+                        encrypted-media;
+                        gyroscope;
+                        picture-in-picture;
+                        web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                        loading="lazy">
+                        </iframe>
+                        <span class="video_box--player--title">Остров. Фильм Павла Лунгина, 2006 год</span>
+                        <span class="video_box--player--footer">6.6M просмотров 7 лет назад</span>
+                    </div>
+                    <div class="video_box--player">
+                        <iframe class="video_box--player--video"
+                        src="https://www.youtube.com/embed/iOlE0TUeK0A?si=wCbsnJUR_0bVJKvX"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer;
+                        autoplay; 
+                        clipboard-write;
+                        encrypted-media;
+                        gyroscope;
+                        picture-in-picture;
+                        web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                        loading="lazy">
+                        </iframe>
+                        <span class="video_box--player--title">Хор Сретенского монастыря "Позови меня тихо по имени"</span>
+                        <span class="video_box--player--footer">5.3M просмотров 4 года назад</span>
+                    </div>
+                    <div class="video_box--player">
+                        <iframe class="video_box--player--video"
+                        src="https://www.youtube.com/embed/385ezj2KUc8?si=2VvZd0hzzNfIKxhC"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer;
+                        autoplay; 
+                        clipboard-write;
+                        encrypted-media;
+                        gyroscope;
+                        picture-in-picture;
+                        web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                        loading="lazy">
+                        </iframe>
+                        <span class="video_box--player--title">Мертвые души 1 серия (драма, реж. Михаил Швейцер, Софья Милькина, 1984 г.)</span>
+                        <span class="video_box--player--footer">3,6 млн просмотров 9 лет назад</span>
+                    </div>
+                    <div class="video_box--player">
+                        <iframe class="video_box--player--video"
+                        src="https://www.youtube.com/embed/Dc0ZuTgt0zQ?si=P2k5Xytsr-1jOyPz"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer;
+                        autoplay; 
+                        clipboard-write;
+                        encrypted-media;
+                        gyroscope;
+                        picture-in-picture;
+                        web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                        loading="lazy">
+                        </iframe>
+                        <span class="video_box--player--title">Слово о Вере | 1 серия | Паломница | 3 сезон</span>
+                        <span class="video_box--player--footer">50 тыс. просмотров 2 недели назад</span>
+                    </div>
+                    <div class="video_box--player">
+                        <iframe class="video_box--player--video"
+                        src="https://www.youtube.com/embed/Cd82K7u48Yk?si=pTbUbXCv-Q7bB76C"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer;
+                        autoplay; 
+                        clipboard-write;
+                        encrypted-media;
+                        gyroscope;
+                        picture-in-picture;
+                        web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                        loading="lazy">
+                        </iframe>
+                        <span class="video_box--player--title">
+                            Гора самоцветов - Про Василия Блаженного (О Василии Блаженном) Рассказ о жизни Василия Блаженного
+                        </span>
+                        <span class="video_box--player--footer">2,6 млн просмотров 10 лет назад</span>
+                    </div>
+                    <div class="video_box--player">
+                        <iframe class="video_box--player--video"
+                        src="https://www.youtube.com/embed/XL8BH6vIrgI?si=y1y-D4VDOffMfIqW"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer;
+                        autoplay; 
+                        clipboard-write;
+                        encrypted-media;
+                        gyroscope;
+                        picture-in-picture;
+                        web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                        loading="lazy">
+                        </iframe>
+                        <span class="video_box--player--title">
+                            Искусство борьбы с собой. Грех отнимает познание истины / А.И. Осипов
+                        </span>
+                        <span class="video_box--player--footer">49 тыс. просмотров 2 недели назад</span>
+                    </div>
+                    <div class="video_box--player">
+                        <iframe class="video_box--player--video"
+                        src="https://www.youtube.com/embed/ri0MDt85TY0?si=-4kLOrzId8X2cLBK"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer;
+                        autoplay; 
+                        clipboard-write;
+                        encrypted-media;
+                        gyroscope;
+                        picture-in-picture;
+                        web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                        loading="lazy">
+                        </iframe>
+                        <span class="video_box--player--title">Чем опасны апокрифические евангелия? / А.И. Осипов</span>
+                        <span class="video_box--player--footer">49 тыс. просмотров 2 недели назад</span>
+                    </div>
+                    <div class="video_box--player">
+                        <iframe class="video_box--player--video"
+                        src="https://www.youtube.com/embed/odZpnukU41o?si=27BlhGEY52uehcQi"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer;
+                        autoplay; 
+                        clipboard-write;
+                        encrypted-media;
+                        gyroscope;
+                        picture-in-picture;
+                        web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                        loading="lazy">
+                        </iframe>
+                        <span class="video_box--player--title">КТО УПРЯМ - ТОМУ НА ВАЛААМ</span>
+                        <span class="video_box--player--footer">41 тыс. просмотров 1 год назад</span>
+                    </div>
+                    <div class="video_box--player">
+                        <iframe class="video_box--player--video"
+                        src="https://www.youtube.com/embed/MQ1inP7Xl58?si=TTqRvLFG36tScxtu"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer;
+                        autoplay; 
+                        clipboard-write;
+                        encrypted-media;
+                        gyroscope;
+                        picture-in-picture;
+                        web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                        loading="lazy">
+                        </iframe>
+                        <span class="video_box--player--title">Стоит ли подавать милостыню профессиональным нищим?</span>
+                        <span class="video_box--player--footer">671 тыс. просмотров 2 года назад</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>

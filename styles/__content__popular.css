@@ -1,0 +1,28 @@
+.popular__menu {
+    height: 100%;
+    margin: 50px 60px 0 40px;
+}
+.popular__menu__box {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 40px 0;
+}
+.popular__menu__box-card {
+    border: 1px solid black;
+    width: 280px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0 0 20px #CED6DE;
+    }
+}
+.popular__menu__box-card--text {
+    font-size: 19px;
+    font-family: Arial, Helvetica, Sans-Serif;
+}
